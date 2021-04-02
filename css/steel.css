@@ -1,3 +1,16 @@
-p {
-    color: blue
+h1{
+    font: bold;
+    font-family: 'Raleway';
+    background-color: blueviolet;
+    }
+li{
+    display: flex;
+    justify-content:flex-end;
+    font-family: 'Raleway'; 
+}  
+i{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Raleway'; 
+
 }
