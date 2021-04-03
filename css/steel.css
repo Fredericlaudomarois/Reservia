@@ -3,14 +3,47 @@ h1{
     font-family: 'Raleway';
     background-color: blueviolet;
     }
-li{
+h3{
+    font:italic;
+    font-family: 'Raleway';
+    background-color:chartreuse;
+    }
+p{
+    font:normal;
+    font-family: 'Raleway';
+    color: darkblue;
+}
+ul{
     display: flex;
-    justify-content:flex-end;
-    font-family: 'Raleway'; 
-}  
+    flex: content;
+    list-style-type: none;
+    border: darkcyan;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+}
+#logo{
+    margin: 1px;
+    size: 400px;
+}
 i{
+    border:2px solid darkcyan;
+    padding: 10px;
+    margin-top: 20px;
+}
+.menu{
+   border: 2px solid darkcyan;
+   padding: 10px;
+   margin-top: 20px;
+   font-family: 'Raleway'; 
+}
+ol{
     display: flex;
-    justify-content: flex-end;
-    font-family: 'Raleway'; 
-
+    flex: content;
+    justify-content:space-between;
+    list-style-type: none;
+    border: darkcyan;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: 'Raleway';
 }
