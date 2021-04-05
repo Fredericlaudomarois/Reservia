@@ -4,36 +4,80 @@ h1{
     background-color: blueviolet;
     }
 h3{
-    font:italic;
     font-family: 'Raleway';
+    font-size: 0.8em;
+    margin: 2px;
     background-color:chartreuse;
     }
+h4{
+        font-size: 0.6em;
+        margin: 2px;
+        font-family: 'Raleway';
+        background-color:white;
+        }
 p{
     font:normal;
     font-family: 'Raleway';
-    color: darkblue;
+    color:  black;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:  #0065FC;
 }
 ul{
     display: flex;
-    flex: content;
+    flex-wrap: wrap;
+    justify-content:space-between;
     list-style-type: none;
+    width: 300px;
+    font-size: 0.7em;
     border: darkcyan;
-    padding: 10px;
+    padding:0;
     margin-top: 20px;
     font-family: 'Raleway';
 }
+div{
+    margin: 3px;
+    padding: 8px;
+    background-color: #F2F2F2;
+}
+.fas fa-map-marker-alt{
+
+}
+li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 #logo{
     margin: 1px;
-    size: 400px;
+    size: 100px;
+    height: 30px;
 }
 i{
-    border:2px solid darkcyan;
+    border:3px solid #F2F2F2;
+    color: #0065FC;
+    border-radius: 50px;
+    background-color:  #DEEBFF;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 1px;
+    font-family: 'Raleway';
+    font-size: 0.8em;
+    margin: 2px;
+}
+.Fitres{
+   /* border:3px solid  #F2F2F2;*/
+   background-color: white;
+   font-family: 'Raleway';
+   font:bold;
+   border-radius: 50px;
+   padding: 10px;
+   margin-top: 1px;
 }
 .menu{
-   border: 2px solid darkcyan;
-   padding: 10px;
+      padding: 1px;
    margin-top: 20px;
    font-family: 'Raleway'; 
 }
@@ -41,9 +85,23 @@ ol{
     display: flex;
     flex: content;
     justify-content:space-between;
+    width: 67%;
     list-style-type: none;
     border: darkcyan;
     padding: 10px;
-    margin-top: 20px;
+    margin: 8px;
     font-family: 'Raleway';
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: bold;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
 }
