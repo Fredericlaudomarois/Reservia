@@ -161,10 +161,15 @@ textarea {
   margin: 40px 10px 40px 40px;
   border-radius: 2%;
   height: auto;
-  width: auto;
+  width: 60%;
   align-items: stretch;
 }
-
+.hebergements .images{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+}
 .populaires {
   background-color: rgb(223, 219, 219);
   padding: 20px 40px 20px 10px;
@@ -172,7 +177,7 @@ textarea {
   justify-content: space-around;
   border-radius: 2%;
   height: auto;
-  width: auto;
+  width: 30%;
 }
 
 .marqueur {
@@ -226,28 +231,21 @@ textarea {
   height: 200px;
   border-radius: 10%;
 }
-.images {
-  min-height: 50vh;
-  width: auto;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: auto;
-  grid-gap: 15px 15px;
+.hebergements .images .grid1 {
+  width: 30%;
+  border: 3px solid red;
+  height: auto;
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px;
 }
 .liste {
   width: 390px;
   display: grid;
   grid-template-rows: auto;
   grid-gap: 15px;
-}
-.grid1 {
-  border: 3px solid red;
-  width: 250px;
-  height: auto;
-  background-color: white;
-  border-radius: 10%;
-  padding: 5px;
-}
+} 
+
 .grid2 {
   border: 3px solid rgb(255, 0, 179);
   width: auto;
@@ -291,7 +289,7 @@ textarea {
   width: 100%;
   height: auto;
   margin: 0;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .activites{
   display: grid;
