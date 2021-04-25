@@ -176,7 +176,6 @@ flex-wrap: wrap;
   height: auto;
   width: 30%;
 }
-
 .marqueur {
   margin: 15px;
   padding: 10px 15px;
@@ -231,13 +230,13 @@ flex-wrap: wrap;
 .hebergements .images .grid1 {
   width: 30%;
   border: 3px solid red;
+  margin: 15px;
   height: auto;
   background-color: white;
   border-radius: 10%;
   padding: 5px;
 }
 .liste {
-  width: 390px;
   display: grid;
   grid-template-rows: auto;
   grid-gap: 15px;
