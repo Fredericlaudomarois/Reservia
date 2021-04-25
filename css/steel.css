@@ -154,11 +154,10 @@ textarea {
 }
 .hebergements {
   background-color: grey;
-  padding: 20px 40px 20px 10px;
   margin: 40px 10px 40px 40px;
   border-radius: 2%;
   height: auto;
-  width: 60%;
+  width: 65%;
   align-items: stretch;
 }
 .hebergements .images{
@@ -174,7 +173,7 @@ flex-wrap: wrap;
   justify-content: space-around;
   border-radius: 2%;
   height: auto;
-  width: 30%;
+  width: 35%;
 }
 .marqueur {
   margin: 15px;
