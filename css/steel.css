@@ -160,7 +160,6 @@ textarea {
   border-radius: 2%;
   height: auto;
   width: auto;
-  align-items: stretch;
 }
 
 .populaires {
@@ -225,12 +224,7 @@ textarea {
   border-radius: 10%;
 }
 .images {
-  min-height: 50vh;
-  width: auto;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: auto;
-  grid-gap: 15px 15px;
+  
 }
 .liste {
   width: 390px;
@@ -238,9 +232,8 @@ textarea {
   grid-template-rows: auto;
   grid-gap: 15px;
 }
-.grid1 {
+.hebergements.grid1 {
   border: 3px solid red;
-  width: 250px;
   height: auto;
   background-color: white;
   border-radius: 10%;
@@ -286,10 +279,8 @@ textarea {
 }
 .grandesection {
   display: flex;
-  width: 100%;
-  height: auto;
   margin: 0;
-  justify-content: flex-start;
+  justify-content:space-between;
 }
 .activites{
     grid-area: auto;
