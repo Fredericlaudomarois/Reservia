@@ -203,7 +203,7 @@ flex-wrap: wrap;
   background-color: blue;
   font-style: white;
 }
-#Cannebiere {
+.photos {
   width: 100%;
   height: 200px;
   border-radius: 10% 10% 0 0;
