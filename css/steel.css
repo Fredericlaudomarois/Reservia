@@ -7,7 +7,7 @@
 }
 
 a:visited {
-  color: white;
+  color:red
   text-decoration: none;
 }
 a:link {
@@ -62,7 +62,7 @@ header {
   font-size: 1.2em;
   border: darkcyan;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 ul {
   display: flex;
@@ -81,7 +81,7 @@ li {
   margin: 4px 12px;
 }
 #logo {
-  margin: 15px;
+  margin: 31px;
   padding: 1px;
   size: 100px;
   height: 30px;
