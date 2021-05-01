@@ -22,7 +22,6 @@
         src="images\logo\Reservia@3x.png"
         height="50px"
         alt="Logo de l'agence"
-        
       />
       <ul class="header">
         <li><a href="#ancre1">hébergements</a></li>
@@ -36,17 +35,11 @@
 
     <section class="Filtres">
       <div>
-        <span class="marqueur">
+        <label for="Rechercher"><span class="marqueur">
           <id class="fas fa-map-marker-alt"></id>
-        </span>
-        <span>
-          <textarea placeholder="Marseille,France"rows="1"
-            cols="30"
-          >
-          </textarea>
-        </span>
-
-        <span class="bouton"><a href="#" class="button">Rechercher</a></span>
+        </span></label>
+        <input type="search" id="Rechercher" placeholder="Marseille,France" name="q">
+        <button>Rechercher</button>
       </div>
 
       <div class="lignedefiltres">
