@@ -21,7 +21,7 @@ h2 {
   font-weight: bold;
   margin: 12px;
   font-size: 1.2em;
-}
+  padding: 6px;}
 h3 {
   font: bold;
   padding: 6px;
@@ -87,7 +87,7 @@ li {
   background-color: white;
   box-shadow: 1px white;
 }
-i {
+.filtres i {
   border: 3px solid #F2F2F2;
   color: #0065fc;
   border-top-left-radius:  50px 50px;
@@ -96,8 +96,6 @@ i {
   border-top-right-radius: 50px 50px;
   background-color: #deebff;
   padding: 15px;
-  /*font-size: 0.8em;
-  margin: 2px;*/
 }
 
 .menu {
@@ -120,26 +118,35 @@ ol {
   padding: 2px 2px 2px 50px;
   margin: 8px;
 }
-.Filtres {
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  /*height: auto;*/
-}
+
 .Filtres span{
   border: #F2F2F2 solid 3px;
   padding:  15px 15px 15px 0;
   border-radius: 0 50px 50px 0;
   border-left: none;
 }
-.Filtres div {
+.filtres{
+  display: flex;
+
+}
+.doublet{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: grey solid 3px;
+  border-radius: 50px;
+  font-weight: bold;
+
+}
+/*.Filtres div {
   margin: 20px;
   padding: 10px;
   font-weight: bold;
   display: flex;
   align-items: center;
   height: auto;
-}
+}*/
 #Rechercher{
   padding:  15px 15px 15px 0;
   border : #F2F2F2 solid 2px;
@@ -160,7 +167,15 @@ ol {
   height: auto;
   width: 65%;
  /*align-items: stretch;*/
-}*/
+}
+.hebergements i.fa-star{
+  color: #0065fc;
+  font-size: 18px;
+}
+.hebergements i.fa-star.grey{
+  color: #F2F2F2;
+}
+
 .hebergements .images{
   justify-content: space-around;
   display: flex;
@@ -212,7 +227,7 @@ button {
 }
 .photos {
   width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 10% 10% 0 0;
 
 }
