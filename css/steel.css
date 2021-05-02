@@ -56,7 +56,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-  width: 300px;
   height: 40px;
   font-size: 1.2em;
   border: darkcyan;
@@ -83,7 +82,7 @@ li {
   margin: 31px;
   padding: 1px;
   size: 100px;
-  height: 30px;
+  height: 40px;
   background-color: white;
   box-shadow: 1px white;
 }
@@ -135,10 +134,14 @@ ol {
   font-size: 1.2em;
   width: 250px;
 }
-
+.centrage{
+  padding-left: 20px;
+}
 #Rechercher{
   padding:  15px 15px 15px 0;
   border : #F2F2F2 solid 2px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 .information {
   display: flex;
@@ -162,6 +165,13 @@ ol {
 }
 .hebergements i.fa-star.grey{
   color: #F2F2F2;
+}
+.fa-info{
+  color: #0065fc;
+  background-color: white;
+  border: #F2F2F2 solid 3px;
+  border-radius: 100%;
+  padding: 10px;
 }
 
 .hebergements .images{
@@ -274,7 +284,7 @@ button {
   height: 100%;
   border-radius: 10%;
 }
-.grandesection {
+.herbergementspopulaires {
   display: flex;
   width: 100%;
   height: auto;
