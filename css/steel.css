@@ -19,7 +19,7 @@ h1 {
 }
 h2 {
   font-weight: bold;
-  margin: 12px;
+  margin: 12px 0;
   font-size: 1.2em;
   padding: 6px;}
 h3 {
@@ -27,7 +27,6 @@ h3 {
   padding: 6px;
   font-size: 0.8em;
   margin: 2px;
-  border: aqua solid 3px;
   border-radius: 50px;
 }
 h4 {
@@ -36,6 +35,7 @@ h4 {
   font-weight: normal;
   color: gray;
   background-color: white;
+  padding: 6px;
 }
 p {
   color: black;
@@ -95,8 +95,12 @@ li {
   border-top-right-radius: 50px 50px;
   background-color: #deebff;
   padding: 15px;
+  
 }
-
+.filtres i:hover{
+  font-size: larger;
+  background-color: lightgray;
+}
 .menu {
   display: flex;
   justify-content: space-between;
@@ -153,10 +157,10 @@ ol {
   padding: 15px;
 }
 .hebergements {
-  background-color: grey;
-  margin: 40px 10px 40px 40px;
+  background-color: #F2F2F2;
+  margin: 40px 10px 40px 20px;
   border-radius: 2%;
-  height: auto;
+  height: fit-content;
   width: 65%;
 }
 .hebergements i.fa-star{
@@ -174,11 +178,16 @@ ol {
   padding: 10px;
 }
 
-.hebergements .images{
-  justify-content: space-around;
+.hebergements .stickers{
+  justify-content: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-end;
+}
+.afficherplus{
+  font-weight: bold;
+  margin: 17px;
 }
 .populaires {
   background-color: rgb(223, 219, 219);
@@ -225,20 +234,21 @@ button {
 }
 .photos {
   width: 100%;
-  height: auto;
+  height: 150px;
   border-radius: 10% 10% 0 0;
 
 }
-.hebergements .images .grid1 {
-  width: 30%;
-  border: 3px solid red;
-  margin: 15px;
+.hebergements .stickers .mini_stickers {
+  width: 29%;
+  border: 2px solid white;
+  margin: 10px;
   height: auto;
   background-color: white;
   border-radius: 10%;
   padding: 5px;
+  font-size: 0.7em;
 }
-.grid1 .img{
+.mini_stickers .img{
   border-radius: 10% 10% 0 0;
 }
 .grid2 {
