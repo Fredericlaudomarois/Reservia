@@ -190,12 +190,12 @@ ol {
   margin: 17px;
 }
 .populaires {
-  background-color: rgb(223, 219, 219);
-  padding: 20px 40px 20px 10px;
+  background-color: #F2F2F2;
+  padding: 0 40px 20px 10px;
   margin: 40px 40px 40px 10px;
   justify-content: space-around;
   border-radius: 2%;
-  height: auto;
+  height: fit-content;
   width: 35%;
   align-items: stretch;
 }
@@ -239,6 +239,16 @@ button {
 
 }
 .hebergements .stickers .mini_stickers {
+  width: 29%;
+  border: 1px solid white;
+  margin: 10px;
+  height: auto;
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px;
+  font-size: 0.65em;
+}
+.mini_stickers {
   width: 29%;
   border: 1px solid white;
   margin: 10px;
